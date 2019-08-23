@@ -11,7 +11,10 @@
     "deploy": "git push heroku master"
   },
   "keywords": [],
-  "author": "",
+  "engines": {
+    "node": "12.6.0"
+  },
+  "author": "Andrew Jessen-Tyler, Jessica Doyle",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
